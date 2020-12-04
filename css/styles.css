@@ -6,6 +6,10 @@
   font-family: Montserrat, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   font-size: 64px;
   font-weight: 800;
@@ -24,7 +28,7 @@ header {
   width: 100%;
   height: 80px;
   top: 0px;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   position: fixed;
   box-shadow: 1px 0px 2px #333333;
   z-index: 1000;
@@ -59,4 +63,85 @@ header a {
 
 header a:hover {
   color: #FFE81F;
+}
+
+
+/*-------------------Hero Styles-------------------*/
+.hero {
+    height: 65vh;
+    padding-top: 80px;
+}
+
+.hero-image {
+  height: 100%;
+  width: 50%;
+  float: left;
+  background: url('../images/trooper.jpg') no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.hero-info {
+  height: 100%;
+  width: 50%;
+  float: right;
+  background: #FFE81F;
+}
+
+.hero-content {
+  padding: 15% 0px 0px 10%;
+}
+
+.hero-content h2 {
+  font-size: 50px;
+  font-weight: 800;
+  color: black;
+  text-transform: uppercase;
+}
+
+.hero-content p {
+  font-size: 24px;
+  font-weight: 300;
+  color: black;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+.galactic {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.hero-content a {
+  position: absolute;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  border: 3px solid white;
+  border-radius: 25px;
+  padding: 10px 30px;
+  margin-top: 50px;
+  transition: .3s
+}
+
+.hero-content a:hover {
+  background-color: black;
+  border: 3px solid black;
+  transition: .3s
+}
+
+/*-------------------Forms Styles-------------------*/
+
+.apply-form {
+  height: 100vh;
+}
+
+.apply-container {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px;
 }
