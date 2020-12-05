@@ -35,13 +35,40 @@
       <section id="apply" class="apply-container">
         <div class="apply-form">
           <h2>StormTrooper Application</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Stormtroopers are the elite shock troops of the Galactic Empire. As members of the Stormtrooper Corps, an independent branch <br />that operated under the Imperial Army, you will serve as the frontline assault forces and form the backbone of the Imperial Military.</p>
           <form class="trooper-apply" action="index.html" method="post">
-            <input type="text" name="fname" value="test">
+            <div class="name">
+              <label for="name">Applicant Name</label>
+              <input type="text" name="name" class="flname" placeholder="Type Your Name...">
+            </div>
+
+            <div class="telephone">
+              <label for="phone">Phone Number</label>
+              <input type="tel" name="phone" class="phone" placeholder="1 (800) STAR-WARS">
+            </div>
+
+            <div class="email-address">
+              <label for="email">Email</label>
+              <input type="email" name="email" class="email" placeholder="Type Your Email...">
+            </div>
+
+            <div class="comments">
+              <label for="comment">Why do you want to be a StormTrooper?</label>
+              <textarea name="comment" class="comment" rows="8" cols="80" placeholder="Type Your Response Here..."></textarea>
+            </div>
+
+            <input type="submit" class="submit-button" name="submit" value="submit">
+
           </form>
         </div>
       </section>
     </main>
+
+    <footer>
+      <div class="footer">
+        <p>Website desinged and coded by Corey Darnell</p>
+      </div>
+    </footer>
 
   </body>
 </html>
