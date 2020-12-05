@@ -36,10 +36,10 @@
         <div class="apply-form">
           <h2>StormTrooper Application</h2>
           <p>Stormtroopers are the elite shock troops of the Galactic Empire. As members of the Stormtrooper Corps, an independent branch <br />that operated under the Imperial Army, you will serve as the frontline assault forces and form the backbone of the Imperial Military.</p>
-          <form class="trooper-apply" action="index.html" method="post">
+          <form id="test_form" name="test_form" class="trooper-apply" method="POST" action="form.php" onsubmit="return validateForm(this)">
             <div class="name">
               <label for="name">Applicant Name</label>
-              <input type="text" name="name" class="flname" placeholder="Type Your Name...">
+              <input type="text" name="req_name" class="flname" placeholder="Type Your Name...">
             </div>
 
             <div class="telephone">
@@ -49,7 +49,7 @@
 
             <div class="email-address">
               <label for="email">Email</label>
-              <input type="email" name="email" class="email" placeholder="Type Your Email...">
+              <input type="email" name="req_email" class="email" placeholder="Type Your Email...">
             </div>
 
             <div class="comments">
@@ -57,7 +57,9 @@
               <textarea name="comment" class="comment" rows="8" cols="80" placeholder="Type Your Response Here..."></textarea>
             </div>
 
-            <input type="submit" class="submit-button" name="submit" value="submit">
+            <div class="submit-bttn">
+              <input type="submit" class="submit-button" name="submit" value="submit">
+            </div>
 
           </form>
         </div>
