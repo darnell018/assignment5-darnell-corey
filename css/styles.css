@@ -197,8 +197,7 @@ header a:hover {
     font-size: 20px;
 }
 
-.trooper-apply input:focus,
-.trooper-apply textarea:focus {
+.trooper-apply input:focus {
   background: #FFE81F;
 }
 /*-------Phone-------*/
@@ -235,6 +234,10 @@ header a:hover {
     width: 765px;
     font-size: 18px;
     padding: 5px 10px;
+}
+
+.comment:focus {
+  background: #FFE81F;
 }
 /*-------Submit-------*/
 
