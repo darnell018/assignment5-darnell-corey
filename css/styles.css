@@ -49,7 +49,7 @@ ul{
 }
 
 header nav ul li {
-    display: inline;
+  display: inline;
 }
 
 header a {
@@ -65,11 +65,10 @@ header a:hover {
   color: #FFE81F;
 }
 
-
 /*-------------------Hero Styles-------------------*/
 .hero {
-    height: 65vh;
-    padding-top: 80px;
+  height: 65vh;
+  padding-top: 80px;
 }
 
 .hero-image {
@@ -197,14 +196,10 @@ header a:hover {
     font-size: 20px;
 }
 
-<<<<<<< HEAD
 .trooper-apply input:focus {
-=======
-.trooper-apply input:focus,
-.comment:focus {
->>>>>>> 9797349b220ae2f6858d5ab02ec1ae789378d4b2
   background: #FFE81F;
 }
+
 /*-------Phone-------*/
 .telephone label {
     padding: 8px 29px;
