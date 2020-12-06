@@ -40,22 +40,22 @@
           <form id="test_form" name="test_form" class="trooper-apply" method="POST" action="form.php" onsubmit="return validateForm(this)">
             <div class="name">
               <label for="name">Applicant Name</label>
-              <input type="text" name="req_name" class="flname" placeholder="Type Your Name...">
+              <input type="text" name="req_name" id="name" class="flname" placeholder="Type Your Name...">
             </div>
 
             <div class="telephone">
               <label for="phone">Phone Number</label>
-              <input type="tel" name="phone" class="phone" placeholder="1 (800) STAR-WARS">
+              <input type="tel" name="phone" id="phone" class="phone" placeholder="1 (800) STAR-WARS">
             </div>
 
             <div class="email-address">
               <label for="email">Email</label>
-              <input type="email" name="req_email" class="email" placeholder="Type Your Email...">
+              <input type="email" name="req_email" id="email" class="email" placeholder="Type Your Email...">
             </div>
 
             <div class="comments">
               <label for="comment">Why do you want to be a StormTrooper?</label>
-              <textarea name="comment" class="comment" rows="8" cols="80" placeholder="Type Your Response Here..."></textarea>
+              <textarea name="comment" id="comment" class="comment" rows="8" cols="80" placeholder="Type Your Response Here..."></textarea>
             </div>
 
             <div class="submit-bttn">
