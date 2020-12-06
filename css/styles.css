@@ -197,7 +197,12 @@ header a:hover {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 .trooper-apply input:focus {
+=======
+.trooper-apply input:focus,
+.comment:focus {
+>>>>>>> 9797349b220ae2f6858d5ab02ec1ae789378d4b2
   background: #FFE81F;
 }
 /*-------Phone-------*/
