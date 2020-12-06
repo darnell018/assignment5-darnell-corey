@@ -66,8 +66,10 @@ header a:hover {
   color: #FFE81F;
 }
 
-.container {
-  height: 100vh;
+.container-page {
+  height: 65vh;
+  padding: 150px 200px;
+  text-align: center;
 }
 
 footer {
@@ -87,13 +89,13 @@ footer {
   <img src="images/sw-logo.png" alt="Star Wars Logo" title="Star Wars">
   <nav class="container">
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#apply">Application</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#apply">Application</a></li>
     </ul>
   </nav>
 </header>
 
-<div class="container">
+<div class="container-page">
   <h1>Thank you for your enquiry</h1>
   <p>Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
 </div>

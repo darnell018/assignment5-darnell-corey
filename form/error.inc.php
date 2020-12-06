@@ -66,9 +66,12 @@ header a:hover {
   color: #FFE81F;
 }
 
-.container {
-  height: 100vh;
+.container-page {
+  height: 65vh;
+  padding: 150px 200px;
+  text-align: center;
 }
+
 
 footer {
   width: 100%;
@@ -87,13 +90,13 @@ footer {
   <img src="images/sw-logo.png" alt="Star Wars Logo" title="Star Wars">
   <nav class="container">
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#apply">Application</a></li>
+			<li><a href="index.html">Home</a></li>
+      <li><a href="index.html#apply">Application</a></li>
     </ul>
   </nav>
 </header>
 
-<div class="container">
+<div class="container-page">
 	<h1>Missing fields</h1>
 	<p>Sorry, you have not completed all of the required fields.</p>
 	<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>

@@ -9,7 +9,7 @@ $form->processForm(
 
 	'goreactiv.io' // Put you mail domain here
 	,
-	'REACTIV' // Put your site name / form name here
+	'Star Wars Application' // Put your site name / form name here
 	,
 	'corey@goreactiv.io' // Where will the form notification be sent?
 	,

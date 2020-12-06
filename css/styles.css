@@ -145,6 +145,25 @@ header a:hover {
   margin-top: 25px;
 }
 
+.apply-form p:nth-child(3) {
+    color: #FFE81F;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.apply-form p:nth-child(3)::first-letter {
+  font-size: 24px;
+}
+
+.apply-form p::selection {
+  background: black;
+  color: #FFE81F;
+}
+
+.apply-form p:nth-child(2)::first-line {
+  color: grey;
+}
+
 .apply-container {
     max-width: 80%;
     margin: 0 auto;
@@ -178,14 +197,16 @@ header a:hover {
     font-size: 20px;
 }
 
-.trooper-apply input:focus {
+.trooper-apply input:focus,
+.trooper-apply textarea:focus {
   background: #FFE81F;
 }
-
+/*-------Phone-------*/
 .telephone label {
     padding: 8px 29px;
 }
 
+/*-------Email-------*/
 .email-address label {
     padding: 8px 78px;
 }
@@ -196,7 +217,7 @@ header a:hover {
   margin: 40px 0;
 }
 
-
+/*-------Text Area-------*/
 .comments {
     margin-top: 40px;
 }
@@ -215,6 +236,7 @@ header a:hover {
     font-size: 18px;
     padding: 5px 10px;
 }
+/*-------Submit-------*/
 
 .submit-button {
   font-weight: bold;
