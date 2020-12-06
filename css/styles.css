@@ -198,7 +198,7 @@ header a:hover {
 }
 
 .trooper-apply input:focus,
-.trooper-apply textarea:focus {
+.comment:focus {
   background: #FFE81F;
 }
 /*-------Phone-------*/
